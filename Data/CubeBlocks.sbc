@@ -7,13 +7,14 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>AttachableConnectorMedium</SubtypeId>
       </Id>
-      <DisplayName>Attachable Connector</DisplayName>
+      <DisplayName>Attached Connector L</DisplayName>
       <Icon>Textures\Icons\AttachableConnector.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ConnectorWithBase.mwm</Model>
+      <Model>Models\Connector_WithBase.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="8" />
@@ -23,12 +24,9 @@
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-<!--
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Connector_Construction1.mwm" />
       </BuildProgressModels>
--->
       <BlockPairName>AttachableConnector</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -43,13 +41,14 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>AttachableConnectorMediumSmallConv</SubtypeId>
       </Id>
-      <DisplayName>Attachable Connector, small conveyors</DisplayName>
+      <DisplayName>Attached Connector S</DisplayName>
       <Icon>Textures\Icons\AttachableConnector.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ConnectorWithBaseSmallConv.mwm</Model>
+      <Model>Models\Connector_WithBaseSmallConv.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="8" />
@@ -59,12 +58,9 @@
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-<!--
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Connector_Construction1.mwm" />
       </BuildProgressModels>
--->
       <BlockPairName>AttachableConnectorSmallConv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -79,13 +75,14 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>AttachableConnectorMediumNoBase</SubtypeId>
       </Id>
-      <DisplayName>Attachable Connector</DisplayName>
+      <DisplayName>Attached Connector L</DisplayName>
       <Icon>Textures\Icons\AttachableConnectorNoBase.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ConnectorNoBase.mwm</Model>
+      <Model>Models\Connector_NoBase.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="8" />
@@ -95,12 +92,9 @@
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-<!--
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Connector_Construction1.mwm" />
       </BuildProgressModels>
--->
       <BlockPairName>AttachableConnectorNoBase</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -115,13 +109,14 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>AttachableConnectorMediumNoBaseSmallConv</SubtypeId>
       </Id>
-      <DisplayName>Attachable Connector, small conveyors</DisplayName>
+      <DisplayName>Attached Connector S</DisplayName>
       <Icon>Textures\Icons\AttachableConnectorNoBase.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ConnectorNoBaseSmallConv.mwm</Model>
+      <Model>Models\Connector_NoBaseSmallConv.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="8" />
@@ -131,12 +126,9 @@
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-<!--
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Connector_Construction1.mwm" />
       </BuildProgressModels>
--->
       <BlockPairName>AttachableConnectorNoBaseSmallConv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
